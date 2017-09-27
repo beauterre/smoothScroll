@@ -1,4 +1,7 @@
 "use strict";
+// cave AT the Es5 file is 'better' for backwardscompatibilty. Only use the Es6 file with a transpiler.
+// also watch out for the bug mentioned in the readme.md
+
 window.addEventListener("load",()=>
 {
 	function scrollIt(destination, duration = 500, easing = 'easeInOutQuad', callback) {
