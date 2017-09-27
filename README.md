@@ -38,8 +38,12 @@ Haven't tested it fully yet, but from what I used in the code I reckon it will r
 IE9, Edge12, FF3, Chrome4, Safari3.1, Opera 10.1.. If anyone tests this and finds otherwise, please let me know.
 Mobile browser suppport is great. All these browsers are newer..
 
+# Elegant Fallback
+If you use the Es5 version with links, even if the code breaks on some ancient browser, or someone has javascript disabled, it'll still work without the scrolling.. 
+I can't find it anywhere, but I remember the jumping to document-fragments with # being part of html1.2 where I got on the HTML train, yes I'm that old. :) Patreon me to get me into a nice home..
+
 # HardCore Backward compatibility 
-If you want support for IE9 and down, you might change the getElementsByClassname to a getElementsByTag("scroll"), which is supported from since IE6+, Firefox 2+, Chrome 1+ and up as a DOM Core level 2 property, 
-and then use the made up tagname like: <scroll scrollTo="test">Go to Test</scroll>..
+If you want support for IE9 and down, you might change the getElementsByClassname to a getElementsByTag("scroll"), which is supported from IE6+, Firefox 2+, Chrome 1+ and up as it is a DOM Core level 2 property. 
+And then you should use the made up tagname like: <scroll scrollTo="test">Go to Test</scroll>..
 You can just style it with CSS to look like a link, if you want..
-I just found that a bit... you know nerdy, even for me.. And since I have no more clients left, who insist on anything beyong IE9, I just left it for now. 
+I just found that a bit... you know nerdy, even for me.. And since I have no more clients left, who insist on anything beyong IE9, I just left it for now. But I thought I'd mention it, for people who aren't convinced yet this script can do WITHOUT jQuery.
