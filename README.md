@@ -5,6 +5,27 @@ smoothScroll in vanilla JS (ES5)
  - LICENSE: Use anywhere, credit, don't credit, I really don't care
 
 # How to use..
+ - Include  smoothScroll-Es5.js in a script tag in your header.
+ ```javascript
+  <script src="smoothScroll-ES5.js"></script>
+```
+ - add an id to the element you'd like to scroll to
+ ```HTML
+  <section id="idtoScrollTo"></section>
+```
+ 
+ - Use a regular link to href any id on your page (or any other element, but links are best for backwards compatibility).
+ - add class scrollOnClick to this link.
+ - add a href AND a scrollTo containing the id to scroll to.
+ ```HTML
+  <a href="#idtoScrollTo" scrollTo="idtoScrollTo" class="scrollOnClick">go scroll</a>
+```
+ - optionally add a duration in ms
+ - optionally add easing 'linear' or 'smooth'
+ ```HTML
+  <a href="#idtoScrollTo" duration="5000" easing="smooth" scrollTo="idtoScrollTo" class="scrollOnClick">Test</a>
+```
+
 The library is easy to include in your projects and WAY (like 30x) smaller than even slim-build-compressed jQuery.
 Test the demo.html to see linear, smooth and default (smooth, 500ms) scrolls.
 
@@ -17,7 +38,7 @@ extended features, that I deemed too much. Also for people using a transpiler in
  
  * NOTE: I uncovered a little bug in Chrome's implementation of Es6, where the behaviour of jumping to document-fragments cannot be prevented, it does work in Es5, but if you use Es6, stick to divs, buttons and anything other than 
  ```javascript
- <a href='#id'>jump to id</a>..
+ <a href='#id'>jump to id</a>
 ```
 
 # universall usefullness as long as browserwars continue around smooth scrolling
