@@ -1,6 +1,7 @@
 # smoothScroll-Es5.js
 smoothScroll in vanilla JS (ES5)
-- SO WITHOUT JQUERY!
+ - WITHOUT JQUERY!
+ - Made especially for Students of the MediaCollege Amsterdam
 by Hjalmar Snoep
 
 # How to use..
