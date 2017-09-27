@@ -36,7 +36,7 @@ Since Es6 has compatibility issues with older browsers, I translated this script
 a easy to use, small library (<3Kb). I left the ES6 script in, for you to look at, if you want the 
 extended features, that I deemed too much. Also for people using a transpiler in their development stack, it might be even MORE useful.
  
- * NOTE: I uncovered a little bug in Chrome's implementation of Es6, where the behaviour of jumping to document-fragments cannot be prevented, it does work in Es5, but if you use Es6, stick to divs, buttons and anything other than 
+ * NOTE: I uncovered a little bug in Chrome's implementation of Es6, where the default-behaviour of jumping to document-fragments cannot be prevented, it does work in Es5, but if you use Es6, stick to divs, buttons and anything other than 
  ```javascript
  <a href='#id'>jump to id</a>
 ```
