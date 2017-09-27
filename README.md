@@ -4,7 +4,7 @@ smoothScroll in vanilla JS (ES5)
 by Hjalmar Snoep
 
 [tutorial]:<https://pawelgrzybek.com/page-scroll-in-vanilla-javascript/>
-I didn't think it all up myself.. Pawel Grzybek deserves most of the credit (and gets it, see the tutorial).
+I didn't think it all up myself.. Pawel Grzybek deserves most of the credit (and gets it, see the [tutorial]).
 This Tutorial is in ES6 and was the basis for the ES6 script.
 Since Es6 has compatibility issues with older browsers, I translated this script to ES5 and made
 a easy to use, small library (<3Kb). I left the ES6 script in, for you to look at, if you want the 
