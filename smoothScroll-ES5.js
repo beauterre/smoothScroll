@@ -38,7 +38,7 @@ window.addEventListener("load",function()
 		var timeFunction = easings[easing](time);
 		window.scroll(0, Math.ceil((timeFunction * (destinationOffsetToScroll - start)) + start));
 
-		if (window.pageYOffset === destinationOffsetToScroll) {
+		if (Math.abs(window.pageYOffset- destinationOffsetToScroll)<1) {
 		  return;
 		}
 		requestAnimationFrame(scroll);
