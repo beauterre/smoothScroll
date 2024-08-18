@@ -39,7 +39,7 @@ To see if you can use the above solution in your situation (or anything in any s
 [http://CanIUse.com](https://caniuse.com/?search=scroll-behavior) is a very handy resource for any developer in today's landscape of quickly changing features, every day a new device or screen-format and varying support for features.
 
 
-Welcome to front-end development! You're welcome to grumble a bit—then accept it and learn our ways. 🙂 We all did that at some point, still the best profession in the world.
+Welcome to front-end development! You're welcome to grumble a bit—then accept it and learn our ways. 🙂 We all did that at some point, still the best profession in the world. (You are freaking creating the internet!)
 
 # Use Cases
 
