@@ -1,6 +1,4 @@
-[![LEES IN HET NEDERLANDS](https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg)](https://github-com.translate.goog/beauterre/smoothScroll/blob/master/README.md?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=wapp)
-
-[LEES IN HET NEDERLANDS](https://github-com.translate.goog/beauterre/smoothScroll/blob/master/README.md?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=wapp)
+[![LEES IN HET NEDERLANDS](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/30px-Flag_of_the_Netherlands.svg.png)](https://github-com.translate.goog/beauterre/smoothScroll/blob/master/README.md?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=wapp) LEES IN HET NEDERLANDS
 
 
 # Warning: You Might Be Adding an Unnecessary Library!
