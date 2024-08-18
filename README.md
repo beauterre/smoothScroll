@@ -1,3 +1,22 @@
+# You might be about to include an UNNEEDED LIBRARY!
+These days adding
+```
+html {
+  scroll-behavior: smooth;
+} 
+```
+to your styles is all that is needed. You can then make anchors in your page, exactly as described here..
+This library is from a time, when ES5 was supported universally, so 2017/2018 and ES6 wasn't.. And
+this feature hadn't been consistently added to browsers.
+This changes all the time..
+
+To see if you can use the above in your situation, check:
+https://caniuse.com/?search=scroll-behavior
+If you suspect you have users that haven't updates in the last 7 years, then by all means, include this feature.
+And while you are at it, see if you are using other libraries that aren't needed..
+Vanilla HTML5 and Ecmascript6 supports so much, you can write complete games and applications in your browser and it is still optimized for text, images and links..
+Isn't that amazing?
+
 # smoothScroll-Es5.js
 smoothScroll in vanilla JS (ES5)
  - WITHOUT JQUERY!
