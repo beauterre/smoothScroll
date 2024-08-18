@@ -1,27 +1,65 @@
-# You might be about to include an UNNEEDED LIBRARY!
-These days adding
+# Warning: You Might Be Adding an Unnecessary Library!
+
+Nowadays, all you need to implement smooth scrolling is the following CSS:
 ```
 html {
   scroll-behavior: smooth;
 } 
 ```
-to your styles is all that is needed. You can then make anchors in your page, exactly as described here..
-This library is from a time, when ES5 was supported universally, so 2017/2018 and ES6 wasn't.. And
-this feature hadn't been consistently added to browsers.
-This changes all the time..
+This simple line of code allows you to create anchor links on your page, just as described in the tutorials below and on countless places on the web.
 
-To see if you can use the above in your situation, check:
-https://caniuse.com/?search=scroll-behavior
-If you suspect you have users that haven't updates in the last 7 years, then by all means, include this feature.
-And while you are at it, see if you are using other libraries that aren't needed..
-Vanilla HTML5 and Ecmascript6 supports so much, you can write complete games and applications in your browser and it is still optimized for text, images and links..
-Isn't that amazing?
+## sorry, I am a teacher and this is a teachable moment, bear with me if you are up for some fast paced learning..
+The library you're currently considering was created back in 2017/2018, during a time when ES5 (JavaScript version 5) was universally supported, but ES6 wasn't yet widely adopted. Developers back then often jumped to ES6 solutions for future-proofing, which, in hindsight, was a bit unnecessary. By the time ES6 became widely supported, so was the `scroll-behavior` CSS property.
+
+At the time this library was built, browser support for the `scroll-behavior` property was inconsistent, and only ES5 worked reliably across all platforms. As a result, this script was a very specific solution to a problem that no longer exists.
+
+Despite this, the library remains one of my more popular repositories, so I wanted to include this warning to save you from using an outdated solution.
+This is from the time of the 
+```
+ /$$                                                                                                                  
+| $$                                                                                                                  
+| $$$$$$$   /$$$$$$   /$$$$$$  /$$  /$$  /$$  /$$$$$$$  /$$$$$$   /$$$$$$  /$$  /$$  /$$  /$$$$$$   /$$$$$$   /$$$$$$$
+| $$__  $$ /$$__  $$ /$$__  $$| $$ | $$ | $$ /$$_____/ /$$__  $$ /$$__  $$| $$ | $$ | $$ |____  $$ /$$__  $$ /$$_____/
+| $$  \ $$| $$  \__/| $$  \ $$| $$ | $$ | $$|  $$$$$$ | $$$$$$$$| $$  \__/| $$ | $$ | $$  /$$$$$$$| $$  \__/|  $$$$$$ 
+| $$  | $$| $$      | $$  | $$| $$ | $$ | $$ \____  $$| $$_____/| $$      | $$ | $$ | $$ /$$__  $$| $$       \____  $$
+| $$$$$$$/| $$      |  $$$$$$/|  $$$$$/$$$$/ /$$$$$$$/|  $$$$$$$| $$      |  $$$$$/$$$$/|  $$$$$$$| $$       /$$$$$$$/
+|_______/ |__/       \______/  \_____/\___/ |_______/  \_______/|__/       \_____/\___/  \_______/|__/      |_______/ 
+```
+*browserwars* if you don't read ascii :)
+
+What is and isn't supported changes all the time.  
+To see if you can use the above solution in your situation (or anything in any situation), check:
+
+[Can I Use](https://caniuse.com/?search=scroll-behavior) is a very handy resource for any developer in today's landscape of quickly changing features and varying support.
+
+Welcome to front-end development! You're welcome to grumble a bit—then accept it and learn our ways. 🙂 We all did that.
+
+# Use Cases
+
+So, why do I leave it up? Well, partly to educate the young and starry-eyed developers. But there are also genuine niche use cases.
+
+If you suspect you have users who haven't updated their browsers in the last 7 years, then by all means, include this feature. And while you're at it, take a moment to check if you're using other libraries that aren't needed.
+
+# Don't Make Your Page Slower Than Necessary
+
+Vanilla HTML5 and ECMAScript 6 (ES6) support so much that you can write complete games and applications directly in your browser without any libraries—and it's still optimized for text, images, and links. Isn't that amazing? 
+
+Learn vanilla first, before diving into libraries. Trust me, it will slow you down at first, but you'll thank me later.
+
+Search engines today track the loading time of your pages because it's a great way to gauge the quality of your development. Good developers achieve a lot with small, fast-loading pages. They ensure that everything crucial loads within 250ms on a good connection and then lazy-load the rest if needed. Just my opinion, but Google seems to agree. :)
+
+Use as few libraries as possible, and if you really need one, host it locally. It’s much faster that way.
 
 # smoothScroll-Es5.js
-smoothScroll in vanilla JS (ES5)
- - WITHOUT JQUERY!
- - Made especially for Students of the MediaCollege Amsterdam by Hjalmar Snoep
- - LICENSE: Use anywhere, credit, don't credit, I really don't care
+
+Smooth scrolling in vanilla JavaScript (ES5)—no jQuery required!
+
+If you've read the above, you know why I prefer not to use jQuery. There's nothing it adds that you can't achieve with vanilla HTML5/JS. While jQuery might be convenient for developers, front-end development should prioritize user experience. Adding jQuery can increase page load time by precious milliseconds, which can result in performance penalties. But feel free to make your own choice!
+
+This script was made especially for students at MediaCollege Amsterdam by Hjalmar Snoep.
+
+**LICENSE:** Use it anywhere, credit or don't—it's up to you!
+
 
 # How to use..
  - Include  smoothScroll-Es5.js in a script tag in your header.
