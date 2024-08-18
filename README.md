@@ -1,3 +1,8 @@
+[![LEES IN HET NEDERLANDS](https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg)](https://github-com.translate.goog/beauterre/smoothScroll/blob/master/README.md?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=wapp)
+
+[LEES IN HET NEDERLANDS](https://github-com.translate.goog/beauterre/smoothScroll/blob/master/README.md?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=wapp)
+
+
 # Warning: You Might Be Adding an Unnecessary Library!
 
 Nowadays, all you need to implement smooth scrolling is the following CSS:
